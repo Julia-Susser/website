@@ -1,0 +1,60 @@
+body{
+  background-image: url("../../../../photos/japan.jpg");
+  background-size: 100% 100%;
+	background-attachment:fixed;
+  size: 300px;
+  text-align:center;
+}
+
+
+#ansey{
+  display : none;
+  color: green;
+  opacity: .5
+}
+
+
+.txt{
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+  width:relative;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+p{
+  margin-left:25%;
+  width:45%;
+
+}
+#hey{
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+  width:20%;
+  margin-left:40%
+}
+#hey button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: lightblue;
+  height:relative;
+  font-size:16px;
+}
+#hint{
+
+  background-color: purple;
+  color:lightblue;
+}
+
+#hey{
+  padding-bottom:10px;
+}
+
+#code{
+  padding:10px;
+  border-radius:50px;
+  background: rgba(255, 255, 255, 0.9);
+  width:20%;
+  margin-left:40%
+}

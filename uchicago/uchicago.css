@@ -1,0 +1,70 @@
+body{
+  background-image: url("../photos/london.jpeg");
+  background-size: 100% 100%;
+	background-attachment:fixed;
+  size: 300px;
+}
+
+img{
+  height:400px;
+  width: 100%;
+}
+#full{
+  margin-top:2%;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.7);
+  padding:50px;
+  height:relative;
+  width:60%;
+}
+#back, #forward{
+  border-radius: 3px;
+  position: absolute;
+  width: auto;
+  top: 45%;
+  padding: 16px;
+  color: black;
+  border:solid;
+  font-weight: bold;
+  font-size: 18px;
+
+
+}
+#graphs{
+  float:left;
+
+}
+
+#forward{
+}
+
+#back{
+  margin-left:-49px;
+
+}
+#full,#overview{
+  float:left;
+}
+#overview{
+  margin-top:4%;
+  margin-left:2%;
+  padding-left:10px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.8);
+  width:25%;
+  font-size:18px;
+}
+
+a{
+  color:CornFlowerBlue
+}
+#dot1{
+  margin-left:45%
+}
+.dot{
+  padding:10px;
+  border-radius: 50px;
+  margin-left:5px;
+  background-color: #bbb;
+  display: inline-block;
+}

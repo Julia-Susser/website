@@ -1,0 +1,58 @@
+body{
+  background-image: url("../photos/portugal.jpeg");
+  background-size: 100% 100%;
+	background-attachment:fixed;
+  size: 300px;
+}
+
+#expierience, #left{
+  float: left;
+  margin-left: 10px;
+
+
+
+
+}
+#expierience, #skills, #awards{
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+
+#skills, #awards{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 4px;
+  margin-top: 18px;
+  width: 300px;
+  height:relative;
+
+}
+#tit{
+  font-size: 17px;
+}
+#expierience{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 1.5%;
+  margin-top: 20px;
+  width: 40%;
+  height:relative;
+}
+h3{
+  color: CornflowerBlue;
+}
+#expierience a{
+  color: CornflowerBlue;
+}
+
+#awardy{
+  text-decoration: none;
+  color: black;
+}
+
+a{
+  color: CornflowerBlue;
+  text-decoration: underline;
+}

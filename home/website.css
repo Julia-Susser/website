@@ -1,0 +1,62 @@
+
+body{
+  background-image: url("../photos/bridge.jpeg");
+  background-size: 100% 100%;
+	background-attachment:fixed;
+  size: 300px;
+}
+.title{
+  top:0;
+
+}
+
+
+
+#job{
+  margin-top: 0px;
+}
+#writing {
+  margin-bottom: 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+  position: relative;
+  padding: 8px;
+  top: 10px;
+  left:1.5%;
+
+
+  width: 50%;
+  height: relative;
+}
+
+#TextWrap{
+  float: left;
+  margin: 10px;
+}
+
+#border{
+  border-style: double;
+}
+
+#name{
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+#border{
+  padding:10px;
+  padding-left:10px;
+}
+dl{
+  margin-top:-10px;
+  padding-left:9px;
+}
+
+a{
+  color:CornFlowerBlue;
+}
+
+dl p{
+  margin-top:-1px;
+  margin-left:-30px;
+}
