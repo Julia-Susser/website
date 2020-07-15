@@ -13,7 +13,7 @@ document.write(
 
   <div class="topnav">
 
-  <a class="home" href="../home/index.html">Home</a>
+  <a class="home" href="../index.html">Home</a>
   <a href="../resume/resume.html">Resume</a>
   <a href="../uchicago/uchicago.html">Research Internship</a>
 

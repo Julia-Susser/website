@@ -125,9 +125,11 @@ red.onmousedown = function(){
 
   choice = person.length-1
   if (person[choice] === actual[choice] && person.length === actual.length && t === 10){
+    div.style.display="block"
     txt.innerHTML = "you won the entire thing!"
+    link.innerHTML = "press here to play again"
   }
-  if (person[choice] === actual[choice] && person.length === actual.length){
+  else if (person[choice] === actual[choice] && person.length === actual.length){
     if (actual.length === 1){
       t = 2
     }
@@ -180,9 +182,11 @@ blue.onmousedown = function(){
   person.push(1)
   choice = person.length-1
   if (person[choice] === actual[choice] && person.length === actual.length && t === 10){
+    div.style.display="block"
     txt.innerHTML = "you won the entire thing!"
+    link.innerHTML = "press here to play again"
   }
-  if (person[choice] === actual[choice] && person.length === actual.length){
+  else if (person[choice] === actual[choice] && person.length === actual.length){
     if (actual.length === 1){
       t = 2
     }
@@ -234,9 +238,11 @@ yellow.onmousedown = function(){
   person.push(2)
   choice = person.length-1
   if (person[choice] === actual[choice] && person.length === actual.length && t === 10){
+    div.style.display="block"
     txt.innerHTML = "you won the entire thing!"
+    link.innerHTML = "press here to play again"
   }
-  if (person[choice] === actual[choice] && person.length === actual.length){
+  else if (person[choice] === actual[choice] && person.length === actual.length){
     if (actual.length === 1){
       t = 2
     }
@@ -288,9 +294,11 @@ green.onmousedown = function(){
   person.push(3)
   choice = person.length-1
   if (person[choice] === actual[choice] && person.length === actual.length && t === 10){
+    div.style.display="block"
     txt.innerHTML = "you won the entire thing!"
+    link.innerHTML = "press here to play again"
   }
-  if (person[choice] === actual[choice] && person.length === actual.length){
+  else if (person[choice] === actual[choice] && person.length === actual.length){
     if (actual.length === 1){
       t = 2
     }

@@ -17,7 +17,7 @@ green.id = "green"
 document.getElementById("sec").appendChild(green)
 var pp = document.createElement('P')
 pp.id="code"
-pp.innerHTML="Code for Jeopardy Game <a href=https://github.com/Julia-Susser/jeopardy target=_blank>here</a>"
+pp.innerHTML="Code for Simon Game <a href=https://github.com/Julia-Susser/simon target=_blank>here</a>"
 document.body.appendChild(pp)
 let div = document.createElement('div')
 div.id="divvy"
