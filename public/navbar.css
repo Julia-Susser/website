@@ -1,0 +1,226 @@
+
+body{
+  margin:0;
+  padding:0;
+  font-family: Raleway;
+  background-color: #f1f1f1;
+  font-size:20px;
+
+
+}
+h1{
+  background-color: Gainsboro;
+  width:95%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-left: 5%;
+
+}
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  padding-left:0px;
+  /* hides overflow */
+}
+
+/* Style the links inside the navigation bar */
+.nav_ref{
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightgray;
+  text-decoration: underline;
+}
+
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+
+
+}
+#home{
+  background-color: RoyalBlue;
+  padding-left: 30px;
+  padding-right:20px;
+}
+.dropdown .dropbtn {
+  color: black;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropbtn:hover{
+  text-decoration: underline;
+  background-color: lightgray;
+}
+
+.dropdown-content {
+  margin-top:10px;
+  width:110px;
+  display: none;
+  position: absolute;
+
+  background: white;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding-top:15px;
+  padding-bottom:15px;
+  display: block;
+  color: black;
+  padding-left:5px;
+  text-align: left;
+  text-decoration: none;
+
+
+  border: 2px solid lightgray;
+}
+
+.dropdown:hover .dropdown-content{
+
+  display:block;
+}
+
+
+
+
+
+.dropdown-content:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid lightgray;
+  right: 42%;
+  top: -20px;
+}
+
+.dropdown-content:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  right: 50%;
+  top: -18px;
+}
+
+
+footer p{
+  width:95%;
+  background: rgba(255, 255, 255, 0.9);
+  float:left;
+  text-decoration:none;
+  color:black;
+  padding-left:5%;
+  white-space: normal;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.topnav a.active {
+  background-color: LightSteelBlue;
+
+}
+
+footer a{
+
+  color:CornFlowerBlue;
+  white-space: normal;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 800px) {
+
+
+}
+
+
+@media (max-width: 600px) {
+  body: {
+    all:unset;
+  }
+  #logout{
+    margin-left:0%;
+  }
+  #home{
+    padding-left: 0%;
+    margin-left:0%;
+  }
+  .topnav{
+
+  }
+  .nav_ref{
+
+    width:100%;
+    padding: 0px;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:5px;
+
+  }
+  .dropdown .dropbtn {
+    padding-top:10px;
+    padding-bottom:5px;
+
+
+    margin-left:0%;/* Important for vertical align on mobile phones */
+  }
+  .dropdown{
+
+
+    width:100%;
+    text-align:center;
+
+  }
+  .dropdown:hover .dropdown-content{
+
+    display:block;
+
+  }
+  .dropdown-content {
+    all:unset;
+
+    display:none;
+    margin-top:0px;
+    width:100%;
+
+
+
+  }
+  .dropdown-content a {
+    padding-top:10px;
+    padding-bottom:5px;
+    border: unset;
+    text-align:center;
+  }
+  #logo{
+    display:none;
+  }
+
+}

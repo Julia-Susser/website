@@ -1,0 +1,104 @@
+
+body{
+  background-image: url("../photos/bridge.jpeg");
+  background-size: 100% 100%;
+	background-attachment:fixed;
+  size: 300px;
+}
+.title{
+  top:0;
+
+}
+
+#slides{
+  margin-top:20px;
+  margin-left: 8.5%;
+  background: rgba(255, 255, 255, 0.9);
+  width:30%;
+  height:55%;
+  padding:10px;
+  padding-bottom:50px;
+
+}
+
+#job{
+  margin-top: 0px;
+}
+
+#writing {
+  margin-bottom: 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+  position: relative;
+  padding: 8px;
+  top: 10px;
+  left:1.5%;
+
+
+  width: 50%;
+  height: relative;
+}
+
+
+#dot1{
+  margin-left:45%
+}
+.dot{
+  margin-top:10px;
+  padding:10px;
+  border-radius: 50px;
+  margin-left:5px;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+#slides img{
+  transition: display 0.6s ease;
+  height:100%;
+  width:100%;
+}
+
+
+
+
+#TextWrap{
+  float: left;
+  margin: 10px;
+}
+
+#border{
+  border-style: double;
+}
+
+#name{
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+#border{
+  padding:10px;
+  padding-left:10px;
+}
+dl{
+  margin-top:-10px;
+  padding-left:9px;
+}
+
+a{
+  color:CornFlowerBlue;
+}
+
+#small{
+  margin-top:-1px;
+  margin-left:-30px;
+}
+#big{
+  color:Maroon;
+}
+#code{
+  border-style:double;
+  text-align:center;
+}
+#slides, #writing{
+  float:left;
+}

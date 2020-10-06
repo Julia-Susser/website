@@ -1,0 +1,54 @@
+form {
+  width:710px;
+  padding:10px;
+  display: block;
+  margin: 20px;
+  background-color: #ffffff;
+  margin-left: 20px;
+
+  color:inherit;
+}
+body{
+  background-image: url("../photos/italy.jpeg");
+  background-size: 100% 100%;
+	background-attachment:fixed;
+  size: 300px;
+}
+label{
+  width:100%
+}
+
+textarea {
+  width:100%;
+  resize: none;
+}
+
+.form-group{
+  margin-top:20px;
+  width:100%;
+
+}
+.btn{
+  margin-top:20px
+}
+form p{
+  margin-top:-1px;
+text-align:right;
+
+
+}
+
+button{
+  text-decoration: none;
+  background-color: RoyalBlue;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
