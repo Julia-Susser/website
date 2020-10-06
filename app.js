@@ -12,11 +12,11 @@ app.listen(port, () => console.log(`listening on port ${port}!`));
 
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '/home/indexx.html'));
+    res.sendFile(path.join(__dirname, 'public/indexx.html'));
   })
 
 app.get('/home', function(req, res) {
-  res.sendFile(path.join(__dirname, '/public/home/indexx.html'));
+  res.sendFile(path.join(__dirname, '/public/indexx.html'));
 })
 app.get('/jeopardy', function(req, res) {
     res.sendFile(path.join(__dirname, '/public/jeopardy/jeopardy.html'));
