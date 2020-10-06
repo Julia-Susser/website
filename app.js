@@ -12,7 +12,7 @@ app.listen(port, () => console.log(`listening on port ${port}!`));
 
 
 app.get('/', function(req, res) {
-    res.redirect("/home")
+    res.sendFile(path.join(__dirname, '/public/home/indexx.html'));
   })
 
 app.get('/home', function(req, res) {
