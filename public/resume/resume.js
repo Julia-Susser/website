@@ -95,26 +95,14 @@ document.getElementById("skills").appendChild(txt)
 
 var txt = document.createElement("UL")
 txt.id = "MyList"
+txt.innerHTML = `
+<li>Pandas</li>
+<li>SQL</li>
+<li>Matplotlib</li>
+<li>Numpy</li>
+<li>Data Cleaning and Machine Learning</li>
+`
 document.getElementById("skills").appendChild(txt)
-
-var txt = document.createElement("LI")
-txt.innerHTML = "Parse through JSON, XML CSV (and Stata with pandas)"
-document.getElementById("MyList").appendChild(txt)
-var txt = document.createElement("LI")
-txt.innerHTML = "Urllib"
-document.getElementById("MyList").appendChild(txt)
-var txt = document.createElement("LI")
-txt.innerHTML = "APIs"
-document.getElementById("MyList").appendChild(txt)
-var txt = document.createElement("LI")
-txt.innerHTML = "Beautiful Soup"
-document.getElementById("MyList").appendChild(txt)
-var txt = document.createElement("LI")
-txt.innerHTML = "Regular Expressions"
-document.getElementById("MyList").appendChild(txt)
-var txt = document.createElement("LI")
-txt.innerHTML = "Linear Regressions with statsmodel and sklearn (uses pandas and matplotlib)"
-document.getElementById("MyList").appendChild(txt)
 
 var txt = document.createElement("hr")
 document.getElementById("skills").appendChild(txt)
@@ -125,60 +113,33 @@ document.getElementById("skills").appendChild(txt)
 
 var txt = document.createElement("UL")
 txt.id = "listy2"
+txt.innerHTML = `
+<li>ggplot2</li>
+<li>Data Cleaning and Machine Learning</li>
+`
 document.getElementById("skills").appendChild(txt)
-
-var txt = document.createElement("LI")
-txt.innerHTML = "GGPLot2"
-document.getElementById("listy2").appendChild(txt)
-
-var txt = document.createElement("LI")
-txt.innerHTML = "Linear Regressions"
-document.getElementById("listy2").appendChild(txt)
 
 
 var txt = document.createElement("hr")
 document.getElementById("skills").appendChild(txt)
 
 var txt = document.createElement("p")
-txt.innerHTML = "SQL"
-document.getElementById("skills").appendChild(txt)
-
-var txt = document.createElement("UL")
-txt.id = "listy"
-document.getElementById("skills").appendChild(txt)
-
-var txt = document.createElement("LI")
-txt.innerHTML = "Relational Database"
-document.getElementById("listy").appendChild(txt)
-
-var txt = document.createElement("hr")
-document.getElementById("skills").appendChild(txt)
-
-var txt = document.createElement("p")
-txt.innerHTML = "Pandas"
+txt.innerHTML = "HTML, CSS, JavaScript"
 document.getElementById("skills").appendChild(txt)
 
 var txt = document.createElement("hr")
 document.getElementById("skills").appendChild(txt)
 
 var txt = document.createElement("p")
-txt.innerHTML = "Numpy"
+txt.innerHTML = "Node.js (Bots (webhooks), website server)"
 document.getElementById("skills").appendChild(txt)
 
 var txt = document.createElement("hr")
 document.getElementById("skills").appendChild(txt)
 
 var txt = document.createElement("p")
-txt.innerHTML = "Matplotlib"
+txt.innerHTML = "React Native"
 document.getElementById("skills").appendChild(txt)
-
-var txt = document.createElement("hr")
-document.getElementById("skills").appendChild(txt)
-
-var txt = document.createElement("p")
-txt.innerHTML = "HTML, CSS, JavaScript (basic, website_building)"
-document.getElementById("skills").appendChild(txt)
-
 
 
 
@@ -186,6 +147,11 @@ var div = document.createElement("div")
 div.id = "awards"
 document.getElementById("left").appendChild(div)
 
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
 
 var txt = document.createElement("h3")
 txt.innerHTML = "AWARDS"
@@ -196,6 +162,10 @@ txt.id="awardy"
 txt.innerHTML = "The <a href='https://www.linkedin.com/feed/update/urn:li:activity:6667558688112422912' target='_blank'> 2nd place winner </a>in Girls in Tech Hackathon (prize is $1,000). November 2nd, 3rd, 2019."
 document.getElementById("awards").appendChild(txt)
 
+
+
+
+
 var txt = document.createElement("hr")
 document.getElementById("awards").appendChild(txt)
 
@@ -205,6 +175,11 @@ document.getElementById("awards").appendChild(txt)
 
 var txt = document.createElement("hr")
 document.getElementById("awards").appendChild(txt)
+
+
+
+
+
 
 var txt = document.createElement("p")
 txt.innerHTML = "Scholarship to National Bridge Championship; Atlanta, GA"
