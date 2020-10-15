@@ -1,4 +1,9 @@
-
+/*heroku ps:resize web=hobby
+Scaling dynos on ⬢ juliasusser-website... done
+type  size   qty  cost/mo
+────  ─────  ───  ───────
+web   Hobby  1    7
+(base) FVFX5DU9HV29:website2 jsusser$ heroku certs:auto:enable*/
 
 
 
