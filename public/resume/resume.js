@@ -3,40 +3,26 @@ document.write(`<div id="resume">
 <div id="expierience">
 <h3>EXPIERIENCE</h3>
 <dl>
-<dt id="tit">Research Internship for University of Chicago Research Specialist </a href'https://bfi.uchicago.edu/scholar/alex-weinberg/' target='_blank'>Alex Weinberg</a></dt>
+<dt id="tit">Research Internship for University of Chicago Research Specialist <a href='https://bfi.uchicago.edu/scholar/alex-weinberg/' target='_blank'>Alex Weinberg</a></dt>
 <br>
-<dt id="sub">Cleaned and organized census data, and made graphs in R's GGplot and Python's Matplotlib. For more, click <a href='../uchicago/uchicago.html' target='_blank'>here</a></dt>
-s
+<dt id="sub">Coded data and graphs in R and Python for UChicago Economist Alex Weinberg. Footnoted in official research paper that will be published. </dt>
+
 <hr>
-  <dt id="tit">Completed 5 Chuck Severence Coursera Python for Everybody Courses<dt>
-  <dt><ul>
+<dt id="tit">App and Website Developer, Good Samaritan Family Resource Center</dt>
+<br>
+<dt id="sub">Programming donor React-Native App and Node.js <a href="https://blooming-badlands-32154.herokuapp.com/home/" target="_blank">website</a> for Good Samaritan Family Resource Center.</dt>
 
-  <li><a href=https://www.coursera.org/account/accomplishments/certificate/BUU7NRHY6H6J target="_blank">Programming For Everybody (Getting Started with Python)</a></li>
-  <li><a href=https://www.coursera.org/account/accomplishments/certificate/RNERYRB6PCLN target="_blank">Using Databases with Python</a></li>
-  <li><a href=https://www.coursera.org/account/accomplishments/certificate/SZM5LMRSVB5P target="_blank">Using Python to Access Web Data</a></li>
-  <li><a href=https://www.coursera.org/account/accomplishments/certificate/RNERYRB6PCLN target="_blank">Using Databases with Python</a></li>
-  <li><a href=https://www.coursera.org/account/accomplishments/certificate/PS7YZUB29B4R target="_blank">Capstone: Retrieving, Processing, and Visualizing Data with Python</a></li>
 
-  </ul>
-  <hr>
-  <dt id="tit">Codecademy Courses</dt>
-  <dt id="sub">
-  <ul>
-  <li>Completed Introduction Python 3</li>
-  <li>Introduction to Statistics with Numpy</li>
-  <li>Introduction to Matplotlib</li>
-  <li>Introduction to R</li>
-  <li>Interactive to Building JavaScript Websites</li>
-  <li>Introduction to JavaScript</li>
-  <li>Introduction to HTML</li>
-  <li>Introduction to CSS</li>
-  </dt>
-  </ul>
 <hr>
 <dt id="tit">Investment Club, Urban School of San Francisco: President</dt>
 <br>
 <dt id="sub">Manages $100,000+ fund for the Urban School. Teaches new members key
-concepts surrounding smart investing.</dt>
+concepts surrounding smart investing; brings in speakers, runs a stock simulator and gives presentations.</dt>
+
+<hr>
+<dt id="tit">Coding Club, Urban School of San Francisco: President</dt>
+<br>
+<dt id="sub">Creates lesson plans in intro to programming such as python, machine learning, matplotlib and pandas. Helps people learn the terminal and code editors.</dt>
 
 <hr>
 <dt id="tit">Conduct Review, Urban School of San Francisco</dt>
@@ -51,16 +37,30 @@ Honesty Policies.</dt>
 <br>
 <dt id="sub">Tutor in Science, Spanish, and Math during the school day and after school.</dt>
 
+
+
 <hr>
-<dt id="tit">Computer Science 1, Urban School of San Francisco</dt>
-<dt id="tit">September 2019 - November 2019</dt>
-<br>
-<dt id="sub">Learned about lists, recursion, shapes and games using Snap Berkeley.
-Midterm Project: Snake game; Final Project: Memory Game</dt>
+
+  <dt id="tit">Completed 5 Chuck Severence Coursera Python for Everybody Courses<dt>
+  <dt><ul>
+
+  <li><a href=https://www.coursera.org/account/accomplishments/certificate/BUU7NRHY6H6J target="_blank">Programming For Everybody (Getting Started with Python)</a></li>
+  <li><a href=https://www.coursera.org/account/accomplishments/certificate/RNERYRB6PCLN target="_blank">Using Databases with Python</a></li>
+  <li><a href=https://www.coursera.org/account/accomplishments/certificate/SZM5LMRSVB5P target="_blank">Using Python to Access Web Data</a></li>
+  <li><a href=https://www.coursera.org/account/accomplishments/certificate/RNERYRB6PCLN target="_blank">Using Databases with Python</a></li>
+  <li><a href=https://www.coursera.org/account/accomplishments/certificate/PS7YZUB29B4R target="_blank">Capstone: Retrieving, Processing, and Visualizing Data with Python</a></li>
+
+  </ul>
+  <hr>
+  <dt id="tit">Codecademy Courses</dt>
+  <dt id="sub">
+  Completed Python 3, Statistics with Numpy, Matplotlib, R, Building JavaScript Websites, JavaScript, HTML, CSS, Web servers.
+  </dt>
+
 
 <hr>
 <dt id="tit">Congregation Emanu El, San Francisco: Assistant Teacher</dt>
-<dt id="tit">September 2018- Present</dt>
+<dt id="tit">September 2018- May 2020</dt>
 <br>
 <dt id="sub">Help teach students about Judaism. Ages Kindergarten to 5th grade.</dt>
 
@@ -101,6 +101,7 @@ txt.innerHTML = `
 <li>Matplotlib</li>
 <li>Numpy</li>
 <li>Data Cleaning and Machine Learning</li>
+<li>Image and Facial Recognition</li>
 `
 document.getElementById("skills").appendChild(txt)
 
