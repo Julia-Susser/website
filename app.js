@@ -6,7 +6,7 @@ const port = process.env.PORT || 2000;
 
 
 
-app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static('public'));
 app.listen(port, () => console.log(`listening on port ${port}!`));
 
 

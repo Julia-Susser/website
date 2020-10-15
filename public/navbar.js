@@ -16,7 +16,7 @@ document.write(
 
     <div class="dropdown">
       <p class="dropbtn">
-        Help Out
+        Projects
       </p>
 
       <div class="dropdown-content">
