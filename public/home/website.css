@@ -87,7 +87,9 @@ dl{
 a{
   color:CornFlowerBlue;
 }
-
+#sk{
+  color:red;
+}
 #small{
   margin-top:-1px;
   margin-left:-30px;
