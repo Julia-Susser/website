@@ -25,6 +25,7 @@ document.write(
       </p>
 
       <div class="dropdown-content">
+      <a href="https://github.com/Julia-Susser" target="_blank">GitHub</a>
       <a href="https://blooming-badlands-32154.herokuapp.com/home/" target="_blank">Good Samaritan</a>
       <a href="/jeopardy" id="jeopardy">Jeopardy</a>
       <a href="/simon" id="simon">Simon</a>

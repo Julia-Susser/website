@@ -109,5 +109,5 @@ document.getElementById("border").appendChild(txt)
 
 var txt = document.createElement("p")
 txt.id="code"
-txt.innerHTML = " Website Built and Designed by Julia Susser. Look at my code <a href='https://github.com/Julia-Susser/website'target='_blank'>here.</a>"
+txt.innerHTML = " Website Built and Designed by Julia Susser.</a>"
 document.getElementById("writing").appendChild(txt)
