@@ -15,7 +15,7 @@ body{
   margin-left: 8.5%;
   background: rgba(255, 255, 255, 0.9);
   width:30%;
-  height:55%;
+  height:65%;
   padding:10px;
   padding-bottom:50px;
 
@@ -42,7 +42,7 @@ body{
 
 
 #dot1{
-  margin-left:45%
+  margin-left:25%
 }
 .dot{
   margin-top:10px;
