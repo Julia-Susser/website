@@ -25,7 +25,7 @@ document.getElementById("graphs").appendChild(graph)
 
 var pp = document.createElement("h4")
 pp.id="graphyy1"
-pp.innerHTML = "Check out my Research Code here"
+pp.innerHTML = `Check out my Research Code <a href="https://github.com/Julia-Susser/Uchicago-Research-Work" target="_blank">here</a>`
 document.getElementById("graphs").appendChild(pp)
 
 var pp = document.createElement("p")

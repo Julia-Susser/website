@@ -5,7 +5,7 @@ document.write(`<div id="resume">
 <dl>
 <dt id="tit">Research Internship for University of Chicago Research Specialist <a href='https://bfi.uchicago.edu/scholar/alex-weinberg/' target='_blank'>Alex Weinberg</a></dt>
 <br>
-<dt id="sub">Coded data and graphs in R and Python for UChicago Economist Alex Weinberg. Footnoted in official research paper that will be published. </dt>
+<dt id="sub">Coded <a href="https://github.com/Julia-Susser/Uchicago-Research-Work" target="_blank">data and graphs</a> in R and Python for UChicago Economist Alex Weinberg. Footnoted in official research paper that will be published. </dt>
 
 <hr>
 <dt id="tit">App and Website Developer, Good Samaritan Family Resource Center</dt>
