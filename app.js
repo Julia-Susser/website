@@ -12,11 +12,11 @@ app.listen(port, () => console.log(`listening on port ${port}!`));
 
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, 'public/indexx.html'));
+    res.sendFile(path.join(__dirname, 'public/home/indexx.html'));
   })
 
 app.get('/home', function(req, res) {
-  res.sendFile(path.join(__dirname, '/public/indexx.html'));
+  res.sendFile(path.join(__dirname, '/public/home/indexx.html'));
 })
 app.get('/jeopardy', function(req, res) {
     res.sendFile(path.join(__dirname, '/public/jeopardy/jeopardy.html'));
@@ -30,7 +30,7 @@ app.get('/simon', function(req, res) {
   res.sendFile(path.join(__dirname, '/public/simon/simon.html'));
 })
 app.get('/research-internship', function(req, res) {
-  res.sendFile(path.join(__dirname, '/public/uchicago.html'));
+  res.sendFile(path.join(__dirname, '/public/research/uchicago.html'));
 })
 
 require('./contactme-router.js')(app);

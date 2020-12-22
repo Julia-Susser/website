@@ -11,7 +11,7 @@ var all = ''
 app.get('/contactme', function(req, res){
 
 
-    res.sendFile(path.join(__dirname, '/public/contactus.html'));
+    res.sendFile(path.join(__dirname, '/public/contactus/contactus.html'));
 
 
 

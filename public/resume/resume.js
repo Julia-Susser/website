@@ -10,7 +10,12 @@ document.write(`<div id="resume">
 <hr>
 <dt id="tit">App and Website Developer, Good Samaritan Family Resource Center</dt>
 <br>
-<dt id="sub">Programming donor React-Native App and Node.js <a href="https://blooming-badlands-32154.herokuapp.com/home/" target="_blank">website</a> for Good Samaritan Family Resource Center.</dt>
+<dt id="sub">Programming volunteer and donor React-Native App and Node.js <a href="https://blooming-badlands-32154.herokuapp.com/home/" target="_blank">website</a> for Good Samaritan Family Resource Center. Currently App is in testing stages and will be deployed very soon.</dt>
+
+<hr>
+<dt id="tit">Closed End Fund Index, Programmer</dt>
+<br>
+<dt id="sub">Sole Developer of algorithm and <a href="https://closedendfundindex.us.com" target="_blank">website</a> that builds a portfolio to mirror an indexes such as the S&P 500 and JNK, allowing clients to purchase an index at a discount.</dt>
 
 
 <hr>
