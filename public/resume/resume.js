@@ -15,7 +15,7 @@ document.write(`<div id="resume">
 <hr>
 <dt id="tit">Closed End Fund Index, Programmer</dt>
 <br>
-<dt id="sub">Sole Developer of algorithm and <a href="https://closedendfundindex.us.com" target="_blank">website</a> that builds a portfolio to mirror an indexes such as the S&P 500 and JNK, allowing clients to purchase an index at a discount.</dt>
+<dt id="sub">Sole Developer of algorithm and <a href="https://closedendfundindexus.com" target="_blank">website</a> that builds a portfolio to mirror an indexes such as the S&P 500 and JNK, allowing clients to purchase an index at a discount.</dt>
 
 
 <hr>
