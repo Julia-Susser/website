@@ -107,6 +107,7 @@ txt.innerHTML = `
 <li>Numpy</li>
 <li>Data Cleaning and Machine Learning</li>
 <li>Image and Facial Recognition</li>
+<li>Flask</li>
 `
 document.getElementById("skills").appendChild(txt)
 

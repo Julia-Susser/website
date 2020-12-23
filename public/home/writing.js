@@ -58,6 +58,7 @@ txt.innerHTML = `
 <li>Numpy</li>
 <li>Data Cleaning and Machine Learning</li>
 <li>Image and Facial Recognition</li>
+<li>Flask</li>
 `
 document.getElementById("border").appendChild(txt)
 
@@ -83,7 +84,7 @@ document.getElementById("border").appendChild(txt)
 
 var txt = document.createElement("p")
 txt.id = "sk"
-txt.innerHTML = "HTML, CSS, JavaScript"
+txt.innerHTML = "HTML, CSS, JavaScript (Ajax, Jquery)"
 document.getElementById("border").appendChild(txt)
 
 var txt = document.createElement("hr")
