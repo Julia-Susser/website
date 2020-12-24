@@ -10,92 +10,94 @@ body{
 }
 h1{
   background-color: Gainsboro;
-  width:95%;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
   padding-left: 5%;
-
+  font-size: 40px;
 }
+
+
 .topnav {
   background-color: white;
+
+   /* the parent must have 100% either */
+   margin-top: -33px;
+   margin-left: -1.45%;
+   margin-right: -1.4%;
   overflow: hidden;
-  padding-left:0px;
   /* hides overflow */
 }
 
 /* Style the links inside the navigation bar */
-.nav_ref{
-  padding-left: 15px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.topnav a {
   float: left;
   color: black;
+  margin: 0px;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-
+  font-family: inherit;
+  font-size: 25px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: lightgray;
-  text-decoration: underline;
 }
 
+/* Add a color to the active/current link */
+.topnav a.home {
+  background-color: RoyalBlue;
+  padding-left: 30px;
+  color: black;
+}
 
+.topnav a.active {
+  background-color: LightSteelBlue;
+  padding-left: 30px;
+  color: black;
+}
 
 .dropdown {
   float: left;
   overflow: hidden;
-
-
-}
-#home{
-  background-color: RoyalBlue;
-  padding-left: 30px;
-  padding-right:20px;
 }
 .dropdown .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
   color: black;
-  padding-left: 15px;
-  padding-right: 60px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
 .dropbtn:hover{
-  text-decoration: underline;
   background-color: lightgray;
 }
 
 .dropdown-content {
-  width:110px;
   display: none;
   position: absolute;
-
-  background: white;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  padding-top:15px;
-  padding-bottom:15px;
-  display: block;
+
+  float: none;
   color: black;
-  padding-left:5px;
-  text-align: left;
+  padding: 12px 16px;
   text-decoration: none;
-
-
-  border: 2px solid lightgray;
+  display: block;
+  text-align: left;
 }
 
 .dropdown:hover .dropdown-content{
 
   display:block;
 }
-
 
 
 
