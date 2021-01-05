@@ -57,7 +57,9 @@ txt.innerHTML = `
 <li>Matplotlib</li>
 <li>Numpy</li>
 <li>Data Cleaning and Machine Learning</li>
+<li>Keras Models</li>
 <li>Image and Facial Recognition</li>
+<li>Scraping Google with Selenium Webdriver</li>
 <li>Flask</li>
 `
 document.getElementById("border").appendChild(txt)

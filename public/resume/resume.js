@@ -106,7 +106,9 @@ txt.innerHTML = `
 <li>Matplotlib</li>
 <li>Numpy</li>
 <li>Data Cleaning and Machine Learning</li>
+<li>Keras Models</li>
 <li>Image and Facial Recognition</li>
+<li>Scraping Google with Selenium Webdriver</li>
 <li>Flask</li>
 `
 document.getElementById("skills").appendChild(txt)
@@ -148,7 +150,12 @@ var txt = document.createElement("p")
 txt.innerHTML = "React Native"
 document.getElementById("skills").appendChild(txt)
 
+var txt = document.createElement("hr")
+document.getElementById("skills").appendChild(txt)
 
+var txt = document.createElement("p")
+txt.innerHTML = "Very basic C++ and PHP"
+document.getElementById("skills").appendChild(txt)
 
 var div = document.createElement("div")
 div.id = "awards"
