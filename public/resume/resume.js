@@ -154,8 +154,16 @@ var txt = document.createElement("hr")
 document.getElementById("skills").appendChild(txt)
 
 var txt = document.createElement("p")
-txt.innerHTML = "Very basic C++ and PHP"
+txt.innerHTML = "C++"
 document.getElementById("skills").appendChild(txt)
+
+var txt = document.createElement("hr")
+document.getElementById("skills").appendChild(txt)
+
+var txt = document.createElement("p")
+txt.innerHTML = "PHP"
+document.getElementById("skills").appendChild(txt)
+
 
 var div = document.createElement("div")
 div.id = "awards"

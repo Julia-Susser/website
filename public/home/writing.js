@@ -23,7 +23,7 @@ txt.innerHTML = "Programmer"
 document.getElementById("writing").appendChild(txt)
 
 var txt = document.createElement("p")
-txt.innerHTML = "Assistant to University of Chicago Economic Researcher Alex Weingberg"
+txt.innerHTML = "Assistant to University of Chicago Economic Researcher Alex Weinberg"
 document.getElementById("writing").appendChild(txt)
 
 var txt = document.createElement("p")
